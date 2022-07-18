@@ -5,7 +5,7 @@
 * @s: String where substring will look.
 * @accept: Substring of accepted chars.
 * Return: Length of occurrence.
-*/3-strspn.c
+*/
 
 unsigned int _strspn(char *s, char *accept)
 {
@@ -26,3 +26,4 @@ unsigned int _strspn(char *s, char *accept)
 	}
 	return (c);
 }
+
