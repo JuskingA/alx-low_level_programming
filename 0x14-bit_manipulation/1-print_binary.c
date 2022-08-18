@@ -1,5 +1,4 @@
 #include "main.h"
-#include "holberton.h"
 
 /**
  * _pow - calculates (base ^ power)
