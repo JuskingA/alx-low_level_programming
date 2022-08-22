@@ -6,6 +6,7 @@
 #include <fcntl.h>
 #include <unistd.h>
 #include <stdlib.h>
+#include <main.h>
 
 /**
  * read_error - function that exits the program
