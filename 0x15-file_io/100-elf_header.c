@@ -146,13 +146,12 @@ int main(int argc, char **argv)
 	if (read_char < 0)
 		read_error(argv[1]);
 
-	check_elf(header);
-	check_class(header);
-	check_data_ver(header);
-	check_type(header);
-	check_entry(header);
-
-	free(header);
-	close(fd64);
+		check_elf(header);
+		check_class(header);
+		check_data_ver(header);
+		check_type(header);
+		check_entry(header);
+		free(header);
+		close(fd64);
 	return (0);
 }
